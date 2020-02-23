@@ -4,21 +4,17 @@ The aim of this project is to classify disaster response messages through machin
 
 ### File Descriptions
 * Data 
- * process_data.py: reads in the data, cleans and stores it in a SQL database.
- * disaster_categories.csv and disaster_messages.csv (raw datasets).
- * DisasterResponse.db: created database from transformed and cleaned data.
+  * process_data.py: reads in the data, cleans and stores it in a SQL database.
+  * disaster_categories.csv and disaster_messages.csv (raw datasets).
+  * DisasterResponse.db: created database from transformed and cleaned data.
 
 * Models
- * train_classifier.py: this program loads the data, transforms it using natural language processing, run an AdaBoost Classifier model using GridSearchCV and trains it
- * classifier.pkl: the pickled model file
+  * train_classifier.py: this program loads the data, transforms it using natural language processing, run an AdaBoost Classifier model using GridSearchCV and trains it
+  * classifier.pkl: the pickled model file
 
 * App
- * run.py: this program runs a Flask app that allows the user to visualise the results.
- * templates: folder containing the html templates
-
-In the Project Workspace, you'll find a data set containing real messages that were sent during disaster events. You will be creating a machine learning pipeline to categorize these events so that you can send the messages to an appropriate disaster relief agency.
-
-Your project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. This project will show off your software skills, including your ability to create basic data pipelines and write clean, organized code!
+  * run.py: this program runs a Flask app that allows the user to visualise the results.
+  * templates: folder containing the html templates
 
 
 
